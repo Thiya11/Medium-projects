@@ -1,0 +1,13 @@
+<h1>
+  Welcome To Thiyagu's Medium Project Sample Page
+</h1>
+  <div>
+  @for (example of examples; track example.id) {
+    <a class="example_btn" [routerLink]="[example.path]">
+      {{example.name}}
+    </a>
+  }
+  @empty {
+    <p>Nothing to show!</p>
+  }
+</div>
